@@ -24,7 +24,6 @@ int main(int argc, char *argv[])
 	{
 		printf("Sqrt of %d is %f\n", input, sqrt(input));
 	}
-	printf("Currently in br_negativeSupport.");
 	printf("End of program. Exiting.");
 	return (0);
 
