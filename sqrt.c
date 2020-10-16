@@ -5,6 +5,7 @@ positive number. */
 #include <stdlib.h>
 #include <math.h>
 
+// This is the main function
 int main(int argc, char *argv[])
 {
 
