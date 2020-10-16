@@ -18,10 +18,12 @@ int main(int argc, char *argv[])
 	int input = atoi(argv[1]);
 	if (input < 0)
 	{
-		printf("input is negative, please provide a valid input!");
-		return (0);
+		printf("Sqrt of %d is %fi\n", input, sqrt(abs(input)));
 	}
-	printf("Sqrt of %d is %f\n", input, sqrt(input));
+	else
+	{
+		printf("Sqrt of %d is %f\n", input, sqrt(input));
+	}
 	printf("End of program. Exiting.");
 	return (0);
 
