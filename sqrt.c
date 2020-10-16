@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 2)
 	{
-		printf("DEBUG: Usage: sqrt input\n\n");
+		printf("NEGSUPPORT: Usage: sqrt input\n\n");
 		exit(-1);
 	}
 
